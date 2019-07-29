@@ -1,0 +1,48 @@
+html{
+  
+}
+/* box-border:border-box */
+:root{
+font-family:(--'Give You Glory', cursive);
+
+}
+/* header */
+.inschrijver-contact ul{
+  border: black solid 1px;
+  list-style: none;
+  display: flex;
+  flex: row;
+  justify-items: end;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0 100px 0 0;
+}
+.inschrijven-content li{
+  list-style: none;
+  /* padding: 0 0 0 50px; */
+}
+.inschrijven-content a{
+  color: black;
+  /* padding: 0 0 0 50px; */
+  /* text-decoration: none; */
+}
+.zwisal ul{
+  border: 1px black solid;
+  display: flex;
+  flex: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  
+}
+.zwisal ul img{
+  width: 100%;
+}
+header{
+  background-img: url(/content/dam/brands/baby/netherlands/1629761-website-header.jpg.rendition.2870.980.jpg);
+
+}
+h1, h2,h3,h4,h5,h6{
+  font-family: var(font-family);
+}
