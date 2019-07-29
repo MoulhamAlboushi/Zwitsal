@@ -1,48 +1,71 @@
 html{
   
+  box-border:border-box
 }
-/* box-border:border-box */
 :root{
-font-family:(--'Give You Glory', cursive);
-
+  --h-font-family:'Give You Glory', cursive;
+  --p-f-family: 'Open Sans', sans-serif;
+  --secondery-color:#ea5635;
 }
-/* header */
+a{
+  text-decoration: none;
+  padding: 0 10px;
+}
+/*/////////////////////////// header */
 .inschrijver-contact ul{
-  border: black solid 1px;
   list-style: none;
   display: flex;
-  flex: row;
-  justify-items: end;
   justify-content: flex-end;
-  margin: 0;
+  margin: 0 5%;
   padding: 0 100px 0 0;
 }
-.inschrijven-content li{
-  list-style: none;
-  /* padding: 0 0 0 50px; */
-}
-.inschrijven-content a{
+
+.inschrijver-contact ul li a{
   color: black;
-  /* padding: 0 0 0 50px; */
-  /* text-decoration: none; */
+}
+.tussen{
+  color: var(--secondery-color); 
 }
 .zwisal ul{
-  border: 1px black solid;
+  border-bottom: grey 3px solid;
   display: flex;
   flex: row;
-  width: 100%;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   list-style: none;
-  
+  justify-content: space-around;
+  margin: 0 5%;
 }
-.zwisal ul img{
-  width: 100%;
-}
-header{
-  background-img: url(/content/dam/brands/baby/netherlands/1629761-website-header.jpg.rendition.2870.980.jpg);
 
+
+.header-img{
+  background-image: url(img/background-header.jpg );
+  /* no-repeat center bottom/cover ; */
+  /* background-size: 100%; */
+  
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  margin: 0;
+}
+.header-een{
+  color: var(--secondery-color);
+  padding: 100px 0 0 75px;
+}
+.zwisal a{
+  color: var(--secondery-color);
+  /* font-size:  */
+}
+.zwisal a:hover{
+  
+  border-bottom: var(--secondery-color) 3px solid;
 }
 h1, h2,h3,h4,h5,h6{
-  font-family: var(font-family);
+  font-family: var(--h-font-family);
+  display: block;
+  text-align: center;
+}
+h1{
+  font-size: 56px;
 }
