@@ -7,6 +7,17 @@ html{
   --p-f-family: 'Open Sans', sans-serif;
   --secondery-color:#ea5635;
 }
+h1, h2,h3,h4,h5,h6{
+  font-family: var(--h-font-family);
+  display: block;
+  text-align: center;
+}
+h1{
+  font-size: 56px;
+}
+.tussen{
+  color: var(--secondery-color); 
+}
 a{
   text-decoration: none;
   padding: 0 10px;
@@ -19,12 +30,16 @@ a{
   margin: 0 5%;
   padding: 0 100px 0 0;
 }
-
 .inschrijver-contact ul li a{
   color: black;
 }
-.tussen{
-  color: var(--secondery-color); 
+.zwisal a{
+  color: var(--secondery-color);
+  /* font-size:  */
+}
+.zwisal a:hover{
+  
+  border-bottom: var(--secondery-color) 3px solid;
 }
 .zwisal ul{
   border-bottom: grey 3px solid;
@@ -39,10 +54,11 @@ a{
 
 
 .header-img{
-  background-image: url(img/background-header.jpg );
+  background-image: url(img/background-header.jpg);
+  /* padding: 200px; */
+  text-align: center;
   /* no-repeat center bottom/cover ; */
-  /* background-size: 100%; */
-  
+  background-size: 100%;
   max-width: 100%;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -53,19 +69,7 @@ a{
   color: var(--secondery-color);
   padding: 100px 0 0 75px;
 }
-.zwisal a{
-  color: var(--secondery-color);
-  /* font-size:  */
-}
-.zwisal a:hover{
-  
-  border-bottom: var(--secondery-color) 3px solid;
-}
-h1, h2,h3,h4,h5,h6{
-  font-family: var(--h-font-family);
-  display: block;
-  text-align: center;
-}
-h1{
-  font-size: 56px;
+btn{
+  padding: 10px;
+  margin: 20px;
 }
