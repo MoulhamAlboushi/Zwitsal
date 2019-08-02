@@ -8,7 +8,7 @@ html {
 }
 h1,
 h2,
-h3 h4,
+h3, h4,
 h5,
 h6 {
   font-family: var(--h-font-family);
@@ -74,7 +74,6 @@ header {
 .inschrijver-contact a {
   color: black;
 }
-
 .header-img {
   position: relative;
   background-image: url(img/background-header.jpg);
@@ -112,7 +111,6 @@ header {
   background-color: white;
   color: var(--secondery-color);
 }
-
 /* main */
 .zwangerschap-pasgeboren {
   display: grid;
@@ -125,8 +123,7 @@ header {
   font-family: var(--h-font-family);
   color: wheat;
 }
-
-.zwangerschap,
+ .zwangerschap,
 .pasgeboren,
 .baby,
 .drewmes,
@@ -135,15 +132,18 @@ header {
 .tips-voor-een,
 .luier,
 .jekindje,
-.tipsvoor {
+.tipsvoor,
+.image-button /* <-- use reusable classses */{
   background-repeat: no-repeat;
   text-align: center;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: 100%;
+  backgroudn-size:cover;
+  /* justify-items: center; */
+  background-position: center center;
+  background-origin: cover;
   border-radius: 20px;
+  /* background-attachment: fixed; */
   border: black solid 1px;
-  width: 100%;
+  /* width: 100%; */
 }
 .zwangerschap {
   background-image: url(img/zwangerscheep.jpg);
@@ -158,13 +158,18 @@ header {
 .pasgeboren {
   background-image: url(img/pasgeboren.jpg);
 }
+.babydrewmespeuter h3{
+  padding: 50px;
+}
 .babydrewmespeuter {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   grid-gap: 1rem;
   margin: 0 5%;
 }
-.babydrewmespeuter a {
+
+.babydrewmespeuter a ,.jekindje a,.tipsvoor a{
   font-family: var(--h-font-family);
   color: wheat;
 }
@@ -205,9 +210,36 @@ header {
 .bekijk span {
   font-family: var(--h-font-family);
 }
-
-/* .box1 {
-  background-color: #ea5635;
-  width: 300px;
-  display: inline-block;
-} */
+.alle-zwitsal{
+  background-image: url(img/alle-zwitsal.webp) ;
+  background-size: cover;
+  /* background-width:100%; */
+  background-repeat: no-repeat;
+  /* height: 100%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.alle-zwitsal h1{
+  width: 550px;
+  padding: 20px 5px;
+  margin: 200px 0;
+}
+.alle-zwitsel-p {
+  /* font-family: var(--h-font-family); */
+  font-size: 1.5rem;
+  padding: 30px 5px;
+  font-family: var(--p-f-family);
+  width: 600px;
+  margin: 200px 0 200px 0;
+}
+.btn{
+  color: white;
+  background-color: var(--secondery-color);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 7px;
+}
+.btn:hover{
+  background-color: white;
+  color: var(--secondery-color);
+}
