@@ -113,14 +113,16 @@ header {
   color: var(--secondery-color);
 }
 /* main */
-.container{
+ .container{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 2fr repeat(3, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 1rem; 
 
-}
+
 .Zwang{
+  line-height: center;
+  /* background-image: url(img/zwangerscheep.jpg) */
   grid-column: 2 /span 3;
   grid-row: 1/span 2;
 }
