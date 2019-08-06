@@ -24,11 +24,23 @@
 .container-grid{
   border-radius: 30px;
   border: black solid 2px;
+  position: relative;
+  text-align: center;
+  color: white;
 }
-.container-grid image{
-  
-  position:relative;
-}
+/* transform: translate(-50% -50%); */
 .container-grid a{
-  position: absolute
+  text-decoration: none;
+  color: white;
 }
+.container-grid img{
+  box-sizing: border-box;
+  position: center center/cover;
+
+}
+.textinphoto{
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
