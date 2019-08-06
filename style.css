@@ -225,3 +225,14 @@ width: 150px;
   background-color: white;
   color: var(--secondery-color);
 }
+.aap{
+  border: 2px solid blue;
+  display: inline-block;
+  justify-content: space-around;
+  height: 800px;
+
+}
+.aap img{
+  width: 40%;
+
+}
