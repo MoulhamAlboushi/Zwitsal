@@ -42,7 +42,7 @@ header {
 }
 .header-logo {
   display: inline-block;
-  width: 50;
+  width: 100px;
 }
 .relative-navbar {
   position: relative;
@@ -86,8 +86,8 @@ header {
 .header-img {
   position: relative;
   background-image: url(img/background-header.jpg);
-  background-size: 100%;
-  width: 100%;
+  /* background-size: 100%; */
+  /* width: 100%; */
   height: 1000px;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -96,27 +96,30 @@ header {
   margin: 0;
 }
 .header-img h1{
-  padding: 300px 0 0 100px ;
+  padding: 250px 0 0 100px ;
+  margin: 0;
   text-align: left;
 }
-.header-button{
-  /* position: absolute; */
-  top: 100px;
+.btn{
+  position: absolute; 
+  top: 325px;
   left: 200px;
   width: 100px;
-  color: var(--secondery-color);
-  margin: 100px 100px;
-}
-.header-button {
+  padding: 10px;
   background-color: var(--secondery-color);
-  color: black;
-  padding: 7px;
-  border-radius: 7px;
-  /* margin-top: 100px; */
-} 
-.header-button:hover{
+  color: white;
+ margin-top: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover{
   background-color: white;
   color: var(--secondery-color);
+}
+.btn-alle-zwitsel{
+  position: inherit;
+width: 150px;
 }
 /* main  */
 .container{
@@ -124,7 +127,7 @@ header {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4.1fr);
   grid-gap: 1rem;
-  margin: 10%;
+  margin: 10px 5%;
 }
 .container-grid{
   border-radius: 30px;
@@ -189,4 +192,36 @@ header {
 .jekindje{
   grid-column-start: 4;
   grid-column-end: 6;
+}
+/* section */
+.alle-zwitsel{
+  display: flex;
+  justify-items: flex-end;
+  font-family: var(--p-f-family);
+  background-image: url(img/alle-zwitsal.webp);
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  height: 1500px;
+}
+.alle-switselhedderenparagraph{
+  /* background-color: aqua; */
+  position: absolute;
+  right: 50px;
+  width: 500px;
+  /* margin: 50px; */
+  height: 800px;
+}
+.alle-switselhedderenparagraph button{
+  display:inline;
+  position: absolute;
+  background-color: var(--secondery-color);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.alle-switselhedderenparagraph button:hover{
+  background-color: white;
+  color: var(--secondery-color);
 }
