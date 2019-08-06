@@ -115,17 +115,22 @@ header {
 /* main */
 .container{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 12%);
   grid-template-rows: repeat(4.1fr);
-  grid-gap: 1rem;
-  
+  grid-gap: 1.5rem;
+  margin: 5%;
 }
+/* .container{
+  display: flex;
+  flex-wrap: wrap;
+} */
 .container-grid{
   border-radius: 30px;
   /* border: black solid 2px; */
   position: relative;
   text-align: center;
   color: white;
+
 }
 /* transform: translate(-50% -50%); */
 .container-grid a{
@@ -146,40 +151,15 @@ header {
   bottom: 10%;
   left: 10%;
 }
-
-
-
- .container{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 2fr repeat(3, 1fr);
-  grid-gap: 1rem; 
-
-
-.Zwang{
-  line-height: center;
-  /* background-image: url(img/zwangerscheep.jpg) */
-  grid-column: 2 /span 3;
-  grid-row: 1/span 2;
-}
-
-
-
-.test img{
-position: absolute;
-z-index: -1;
+.textinphoto h3{
+  display: inline;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
 
 
 
-.zwangerschap-pasgeboren {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
-  margin: 1rem 5%;
-  /* flex-wrap: warp; */
-}
 .zwangerschap-pasgeboren a {
   font-family: var(--h-font-family);
   color: wheat;
@@ -206,9 +186,7 @@ z-index: -1;
   background-size: cover;
   /* width: 100%; */
 }
-.zwangerschap {
-  background-image: url(img/zwangerscheep.jpg);
-}
+
 .zwangerschap h3 {
   justify-items: center;
   align-items: center;
@@ -216,19 +194,11 @@ z-index: -1;
 .zwangerschap h3 {
   color: black;
 }
-.pasgeboren {
-  background-image: url(img/pasgeboren.jpg);
-}
+
 .babydrewmespeuter h3 {
   padding: 50px;
 }
-.babydrewmespeuter {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  /* grid-template-rows: 1fr 1fr; */
-  grid-gap: 1rem;
-  margin: 0 5%;
-}
+
 
 .babydrewmespeuter a,
 .jekindje a,
@@ -236,51 +206,14 @@ z-index: -1;
   font-family: var(--h-font-family);
   color: wheat;
 }
-.baby {
-  background-image: url(img/baby.jpg);
-}
-.drewmes {
-  background-image: url(img/dreumes.jpg);
-}
-.peuter {
-  background-image: url(img/peuter.jpg);
-}
-.stap-voor-stap {
-  background-image: url(img/stap-voor-stap.jpg);
-}
-.tips-voor-een {
-  background-image: url(img/tips-voor-7.jpg);
-}
-.luier {
-  background-image: url(img/luier.jpg);
-}
-.tipsvoor-jekindje {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 1fr 1fr;
-  margin: 1rem 20%;
-}
-.tipsvoor {
-  background-image: url(img/tips-voor-snacht.webp);
-}
-.jekindje {
-  background-image: url(img/tips-voor-je-kindje.jpg);
-}
+
+
 .bekijk a {
   display: block;
   text-align: center;
 }
 .bekijk span {
   font-family: var(--h-font-family);
-}
-.alle-zwitsal {
-  background-image: url(img/alle-zwitsal.webp);
-  background-size: cover;
-  /* background-width:100%; */
-  background-repeat: no-repeat;
-  /* height: 100%; */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 .alle-zwitsal h1 {
   width: 550px;
@@ -310,8 +243,3 @@ z-index: -1;
 
 
 
-.zwitsal-babynomen{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 5px 5%;
-}
