@@ -8,7 +8,8 @@ html {
 }
 h1,
 h2,
-h3, h4,
+h3,
+h4,
 h5,
 h6 {
   font-family: var(--h-font-family);
@@ -112,6 +113,28 @@ header {
   color: var(--secondery-color);
 }
 /* main */
+.container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 2fr repeat(3, 1fr);
+  grid-gap: 1rem;
+
+}
+.Zwang{
+  grid-column: 2 /span 3;
+  grid-row: 1/span 2;
+}
+
+
+
+.test img{
+position: absolute;
+z-index: -1;
+}
+
+
+
+
 .zwangerschap-pasgeboren {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -123,7 +146,7 @@ header {
   font-family: var(--h-font-family);
   color: wheat;
 }
- .zwangerschap,
+.zwangerschap,
 .pasgeboren,
 .baby,
 .drewmes,
@@ -133,16 +156,16 @@ header {
 .luier,
 .jekindje,
 .tipsvoor,
-.image-button /* <-- use reusable classses */{
+.image-button /* <-- use reusable classses */ {
   background-repeat: no-repeat;
   text-align: center;
-  backgroudn-size:cover;
-  /* justify-items: center; */
+  justify-items: center;
   background-position: center center;
   background-origin: cover;
   border-radius: 20px;
   /* background-attachment: fixed; */
   border: black solid 1px;
+  background-size: cover;
   /* width: 100%; */
 }
 .zwangerschap {
@@ -158,7 +181,7 @@ header {
 .pasgeboren {
   background-image: url(img/pasgeboren.jpg);
 }
-.babydrewmespeuter h3{
+.babydrewmespeuter h3 {
   padding: 50px;
 }
 .babydrewmespeuter {
@@ -169,7 +192,9 @@ header {
   margin: 0 5%;
 }
 
-.babydrewmespeuter a ,.jekindje a,.tipsvoor a{
+.babydrewmespeuter a,
+.jekindje a,
+.tipsvoor a {
   font-family: var(--h-font-family);
   color: wheat;
 }
@@ -210,8 +235,8 @@ header {
 .bekijk span {
   font-family: var(--h-font-family);
 }
-.alle-zwitsal{
-  background-image: url(img/alle-zwitsal.webp) ;
+.alle-zwitsal {
+  background-image: url(img/alle-zwitsal.webp);
   background-size: cover;
   /* background-width:100%; */
   background-repeat: no-repeat;
@@ -219,7 +244,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.alle-zwitsal h1{
+.alle-zwitsal h1 {
   width: 550px;
   padding: 20px 5px;
   margin: 200px 0;
@@ -232,14 +257,23 @@ header {
   width: 600px;
   margin: 200px 0 200px 0;
 }
-.btn{
+.btn {
   color: white;
   background-color: var(--secondery-color);
   padding: 10px;
   margin: 20px;
   border-radius: 7px;
 }
-.btn:hover{
+.btn:hover {
   background-color: white;
   color: var(--secondery-color);
+}
+
+
+
+
+.zwitsal-babynomen{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px 5%;
 }
