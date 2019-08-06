@@ -1,0 +1,33 @@
+div{
+  display: inline;
+  width: 300px;
+  border:rgb(212, 62, 62) 7px solid;
+}
+div img {
+  position: absolute;
+  display: flex;
+  /* position: relative; */
+  z-index: -1;
+}
+.test{
+  border: solid 2px red;
+}
+span {
+  /* position: absolute; */
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-items: center;
+  border: 1px black solid;
+  z-index: 2;
+  border: green solid 2px;
+
+  /* top: 0; */
+  /* left: 50; */
+}
+
+.test-1{
+  z-index: -1;
+  border: 3px solid red;
+}
+span-1
