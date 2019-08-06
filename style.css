@@ -1,5 +1,5 @@
 html {
-  box-border: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -118,75 +118,85 @@ header {
 .container{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  /* grid-gap: 1.5rem; */
-  margin: 0 5%;
-  border: 3px solid green;
+  grid-template-rows: repeat(4.1fr);
+  grid-gap: 1rem;
+  margin: 10%;
+  
+  
 }
-/* .zwangenpasgeboren{
-  display: flex;
-}
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: spacearound;
-} */
- .container-grid{
+.container-grid{
   border-radius: 30px;
-  border: black solid 2px;
+  /* border: black solid 2px; */
   position: relative;
   text-align: center;
   color: white;
-
 }
 /* transform: translate(-50% -50%); */
- /* .container-grid a{
+.container-grid a{
   text-decoration: none;
   color: white;
 }
-.container-grid img{ 
+.container-grid img{
   border: 1px red solid;
   border-radius: 20px;
 
   position: center center/cover;
-  height: 100%;
+  /* height: 100%; */
   size: cover;
-} */
-.Zwang{
-  grid-column: 1/span 3;
-  grid-row: 1/ span 2;
-  background-image: url("img/zwangerscheep.jpg" );
-  background-size: cover;
-  
-}
-.pasgeboren{
-  grid-column: 4/ span 6;
-  grid-row: 1/ span 2;
-  background-image: url("img/pasgeboren.jpg");
-  background-size: cover;
-}
-/* .container img{
-width: 20%;
-} */
 
+}
 .textinphoto{
   position: absolute;
   bottom: 10%;
   left: 10%;
 }
-.textinphoto h3{
-  display: inline;
-  font-size: 30px;
-  padding-bottom: 20px;
+.Zwang{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.pasgeboren{
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+.baby{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  
+}
+.drewmes{
+  grid-column-start:3;
+  grid-column-end: 5;
+}
+.peuteer{
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.stapvoorstap{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.tipsvooreen{
+  grid-column-start:3;
+  grid-column-end: 5;
+}
+.luierverschonen{
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.tipsvoorsnacht{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.jekindje{
+  grid-column-start: 4;
+  grid-column-end: 6;
+
 }
 
 
 
 
-.zwangerschap-pasgeboren a {
-  font-family: var(--h-font-family);
-  color: wheat;
-}
+
 /* .zwangerschap,
 .pasgeboren,
 .baby,
@@ -274,6 +284,11 @@ width: 20%;
 .btn:hover {
   background-color: white;
   color: var(--secondery-color);
+}
+.zwitsal-babynomen{
+  border: 1px doted black;
+  margin: 5px;
+  
 }
 
 
