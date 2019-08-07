@@ -87,54 +87,55 @@ header {
   color: black;
 }
 .header-img {
-  position: relative;
-  background-image: url(img/background-header.jpg);
-  /* background-size: 100%; */
-  /* width: 100%; */
-  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  background-image: url(img/background-header.jpg); 
+  height: 600px;
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+  background-position: bottom ;
   background-size: cover;
   margin: 0;
+  padding: 50px;
 }
 .header-img h1{
-  padding: 250px 0 0 100px ;
-  margin: 0;
+  color: white;
+  padding: 200px 0 0 600px ;
   text-align: left;
 }
+.header-img h1 span{
+  color: var(--secondery-color);
+}
 .btn{
-  position: absolute; 
-  top: 325px;
-  left: 200px;
-  width: 100px;
   padding: 10px;
-  background-color: var(--secondery-color);
-  color: white;
- margin-top: 100px;
   border-radius: 10px;
   cursor: pointer;
+  color: white;
+  background: var(--secondery-color);
 }
-
 .btn:hover{
   background-color: white;
   color: var(--secondery-color);
 }
+.btn{
+  position: absolute; 
+  top: 475px;
+  right: 50px;
+  width: 100px;
+}
 .btn-alle-zwitsel{
   position: inherit;
-width: 150px;
+  width: 150px;
 }
 /* main  */
 .container{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(4.1fr);
   grid-gap: 1rem;
-  margin: 10px 5%;
+  margin: 3px 5%;
 }
 .container-grid{
   border-radius: 30px;
-  /* border: black solid 2px; */
   position: relative;
   text-align: center;
   color: white;
@@ -142,16 +143,14 @@ width: 150px;
 /* .container-grid:hover{
   background-color: rgb(174, 233, 213);
 } */
-/* transform: translate(-50% -50%); */
-.container-grid a{
+a{
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
 }
 .container-grid img{
-  border: 1px red solid;
+  /* border: 1px red solid; */
   border-radius: 20px;
-  position: center center/cover;
-  /* height: 100%; */
+  position: center center;
   size: cover;
 }
 .textinphoto{
@@ -207,6 +206,7 @@ width: 150px;
   background-image: url(img/alle-zwitsal.webp);
   background-position-x: center;
   background-position-y: top;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 1500px;
 }
@@ -278,17 +278,17 @@ position: relative;
 .maak-kans:hover{
   background-color: white;}
 footer{
-  padding: 10%;
+  padding: 10px 10%;
   display: flex;
   flex-wrap: warp;
   justify-content: space-around;
   margin: 5%;
 border: 1px black solid;
-height: 200px;
+/* height: 100px; */
 background-color: #f3ed9f
 }
 .footer-form{
-  margin: 50px;
+  /* margin: 50px; */
 }
 .schrijf{
   display: inline-block ;
@@ -298,5 +298,6 @@ label{
   background-color: var(--secondery-color);
   border-radius: 10px;
 }
-footer img{
-width: 400px;}
+.footer-unilever{
+  width: 70%;
+}
