@@ -30,6 +30,9 @@ h6 {
 h1 {
   font-size: 56px;
 }
+h3{
+  font-size: 25;
+}
 .tussen {
   color: var(--secondery-color);
 }
@@ -136,6 +139,9 @@ width: 150px;
   text-align: center;
   color: white;
 }
+/* .container-grid:hover{
+  background-color: rgb(174, 233, 213);
+} */
 /* transform: translate(-50% -50%); */
 .container-grid a{
   text-decoration: none;
@@ -209,7 +215,7 @@ width: 150px;
   position: absolute;
   right: 50px;
   width: 500px;
-  /* margin: 50px; */
+  margin: 200px 0 0 0;
   height: 800px;
 }
 .alle-switselhedderenparagraph button{
@@ -256,22 +262,41 @@ width: 150px;
 }
 .win1jaar-text{
   padding: 10px;
-  margin-top: 70px;
+  /* margin-top:px; */
+  border: solid black 2px;
 }
 .maak-kans{
-position: absolute;
+position: relative;
   align-items: flex-end;
   background-color: var(--secondery-color);
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 100px;
+  margin-top: 25px;
 
 }
 .maak-kans:hover{
-  background-color: white;
-
+  background-color: white;}
+footer{
+  padding: 10%;
+  display: flex;
+  flex-wrap: warp;
+  justify-content: space-around;
+  margin: 5%;
+border: 1px black solid;
+height: 200px;
+background-color: #f3ed9f
 }
-/* .aapphoto{
-  background-image: url(/img/zwitsal-baby-app.jpg.rendition.1960.1960.jpg);
-} */
+.footer-form{
+  margin: 50px;
+}
+.schrijf{
+  display: inline-block ;
+}
+label{
+  padding: 10px;
+  background-color: var(--secondery-color);
+  border-radius: 10px;
+}
+footer img{
+width: 400px;}
