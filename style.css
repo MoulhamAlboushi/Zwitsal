@@ -218,7 +218,8 @@ width: 150px;
   background-color: var(--secondery-color);
   border-radius: 10px;
   padding: 10px;
-  margin-top: 50px;
+  /* margin-top: 50px;
+  margin-bottom: 0; */
   cursor: pointer;
 }
 .alle-switselhedderenparagraph button:hover{
@@ -226,13 +227,43 @@ width: 150px;
   color: var(--secondery-color);
 }
 .aap{
-  border: 2px solid blue;
-  display: inline-block;
-  justify-content: space-around;
-  height: 800px;
+
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 0 5%;
+}
+ .zwitsalbabynamen-text{
+  padding:20px;
+} 
+.aap-photo{
+  padding: 10px;
+  background: var(--secondery-color);
+  border-radius: 10px;
+  cursor: pointer;
 
 }
-.aap img{
-  width: 40%;
+.aap-photo:hover{
+  background-color: white;
+}
+.win1jaar{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
 
 }
+.maak-kans{
+  background-color: var(--secondery-color);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.maak-kans:hover{
+  background-color: white;
+
+}
+/* .aapphoto{
+  background-image: url(/img/zwitsal-baby-app.jpg.rendition.1960.1960.jpg);
+} */
