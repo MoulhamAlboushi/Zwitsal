@@ -9,7 +9,7 @@ body {
   --p-f-family: "Open Sans", sans-serif;
   --secondery-color: #ea5635;
 }
-.image{
+img{
   width: 100%;
   height: 100%;
   /* object-fit: cover; */
