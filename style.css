@@ -1,7 +1,8 @@
 body {
   box-sizing: border-box;
   padding: 0;
-  margin: 0 5%;
+  margin: 0;
+  
   /* border: 1px dotted black; */
 }
 :root {
@@ -72,7 +73,11 @@ header {
   border-bottom: var(--secondery-color) 3px solid;
 }
 .relative-navbar {
-  border-bottom: grey 3px solid;
+  /* border-bottom: grey 3px solid; */
+  margin: 0 4.5%;
+}
+.relative-navbar-border-bottom{
+  border-bottom: grey 2.5px solid;
 }
 .relative-navbar ul {
   display: flex;
@@ -94,28 +99,36 @@ header {
 .inschrijver-contact a {
   color: black;
 }
-.header-img {
+.top-img {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
-  background-image: url(img/background-header.jpg); 
+  /* background-image: url(img/background-header.jpg);  */
+  background-image: url(/img/zwitsal-baby-op-schouder-vader-mg0-3556.jpg.rendition.1960.1960.jpg);
   height: 600px;
   background-repeat: no-repeat;
-  background-position: bottom ;
+  background-position: top ;
   background-size: cover;
   margin: 0;
   padding: 50px;
 }
-.header-img h1{
+.top-img-text{
   position: absolute;
-  right: 5%;
+  left: 20rem;
+  width: 500px;
+  height: 300px;
   color: white;
-  padding: 200px 0 0 600px ;
+  padding: 50px 0 30px 0 ;
   text-align: left;
 }
-.header-img h1 span{
+.top-img h1 span{
   color: var(--secondery-color);
+}
+.top-tex-btn{
+  position: relative;
+  width: 500px;
+  height: 250px;
 }
 .btn{
   position: absolute;
@@ -131,17 +144,29 @@ header {
   background-color: white;
   color: var(--secondery-color);
 }
-.header-img-text{
+.top-img-text{
    position: static; 
   bottom: 200px;
   right: 150;
+  /* background: forestgreen; */
 }
-.btn-header{
+.top-tex-btn{
+  position: relative;
+}
+.btn-top{
+  position: absolute;
+  /* top: 20px; */
+  bottom:5px ;
+  right: 20px;
+  border: black 1px solid;
+}
+/* .btn-header{
   /* top: 475px; */
-  bottom: 180px;
-  right: 340px;
+  /* top: 300px;
+  left: 200px;
   width: 100px;
-}
+  bottom: 300px;
+} */ */
 .btn-alle-zwitsel{
   margin-top: -5px;
   width: 130px;
@@ -224,7 +249,7 @@ ul{
   grid-template-columns: 1fr 1fr;
   text-align: center;
   grid-gap: 10rem;
-  margin: 3%;
+  margin: 0 7%;
   font-family: var(--p-f-family);
   background-position-y: top;
   background-repeat: no-repeat;
@@ -245,7 +270,7 @@ ul{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  margin: 0 5%;
+  margin: 0 9%;
 }
 .zwitsalbabynamen-text{
   position: relative;
@@ -262,7 +287,7 @@ ul{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5px;
-  margin: 5px 5%;
+  margin: 5px 9%;
 }
 .win1jaar img{
   height: 380px;
@@ -309,3 +334,4 @@ label{
   border-radius: 0;
   margin-top: 35px;
 }
+
