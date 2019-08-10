@@ -105,7 +105,7 @@ header {
   flex-wrap: wrap;
   justify-content: end;
   /* background-image: url(img/background-header.jpg);  */
-  background-image: url(/img/zwitsal-baby-op-schouder-vader-mg0-3556.jpg.rendition.1960.1960.jpg);
+  background-image: url(img/zwitsal-baby-op-schouder-vader-mg0-3556.jpg.rendition.1960.1960.jpg);
   height: 600px;
   background-repeat: no-repeat;
   background-position: top ;
@@ -155,18 +155,9 @@ header {
 }
 .btn-top{
   position: absolute;
-  /* top: 20px; */
   bottom:5px ;
   right: 20px;
-  border: black 1px solid;
 }
-/* .btn-header{
-  /* top: 475px; */
-  /* top: 300px;
-  left: 200px;
-  width: 100px;
-  bottom: 300px;
-} */ */
 .btn-alle-zwitsel{
   margin-top: -5px;
   width: 130px;
