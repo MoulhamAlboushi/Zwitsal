@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* max-width: 1140px; */
   
   /* border: 1px dotted black; */
 }
@@ -298,18 +299,23 @@ ul{
   margin-top: 25px;
 }
 footer{
-  padding: 10px 10%;
+background-color: rgb(245, 195, 130);
+padding: 10px;
+
+}
+.footer-flex{
+  padding: 10px 0;
   display: flex;
+  flex-wrap: wrap;
   flex-wrap: warp;
   justify-content: space-around;
-  margin: 5%;
-  background-color: #f3ed9f
+  /* margin: 5%; */
 }
 .footer-form p{
   font-family: var(--p-f-family);
   font-size: 15px;
 }
-footer a{
+.footer-flex a{
   color: var(--secondery-color)
 }
 .schrijf{
@@ -325,4 +331,11 @@ label{
   border-radius: 0;
   margin-top: 35px;
 }
+.copy2019 P{
+  /* color: red; */
+  /* padding:10 0 50px 30px;  */
+  margin: 10px;
+  font-size: 15px;
+}
+
 
