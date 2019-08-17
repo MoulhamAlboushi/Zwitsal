@@ -43,7 +43,7 @@ h1 {
     font-size:40px;
 }
 h3{
-  font-size: 25px;
+  font-size: 35px;
 }
 p{
   font-size: 25px;
@@ -180,11 +180,10 @@ header {
   border-radius: 30px;
   position: relative;
   text-align: center;
-  color: white;
 }
 a{
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(139, 134, 134);
 }
 ul{
   list-style: none;
@@ -192,11 +191,21 @@ ul{
 .container-grid img{
   border-radius: 20px;
 }
-.textinphoto{
+.textinphoto h3{
+  width: 100%;
   position: absolute;
-  bottom: 10%;
-  left: 10%;
+  bottom: 5px;
+  color: rgb(247, 245, 244);
+  /* color: var( --secondery-color) */
+  /* font-family: 'Cookie', cursive; */
+  font-family: 'Give You Glory', cursive;
+  font-size: 35px;
+  
+ 
+  
+  
 }
+
 .Zwang{
   grid-column-start: 1;
   grid-column-end: 4;
@@ -345,7 +354,7 @@ label{
 /* ///////////////////////////////////////////////// */
  @media screen and (max-width: 360px){
    body{
-     border: black 1px solid;
+     /* border: black 1px solid; */
      margin: 0;
      padding: 0;
      width: 100%;
@@ -354,6 +363,8 @@ label{
   body{
     margin: 0;
     padding: 0;
+  }
+  p{font-size: 18px;
   }
   .top-img h1{
     font-size: 30px;
@@ -371,16 +382,23 @@ label{
       height: 300px;
       color: white;
       padding: 10px 0 10px 0 ;
-      background-size: 20%;
-      background-position: center cernter;
+      background-position-x: right;
+      background-position-y: top;
+  }
+  .btn{
+    display: block;
+margin: auto;
   }
   .btn-top{
       position: absolute;
-      bottom: 5px;
-      left: 10px;
+      top: 100px;
+      bottom: 240px;
+      /* bottom: 5px; */
+      left: 10rem;
+      padding: 4px;
+      /* color: aqua */
 
-      padding: 0;
-      margin: 0;
+  
 
   }
   .top-tex-btn{
@@ -412,4 +430,18 @@ display: block;
   .stapvoorstap img{
     height: 180%;
   }
+  .textinphoto h3{
+    /* width: 255px; */
+    /* height: 100px; */
+    position: absolute;
+    bottom: 3rem;
+    padding-bottom: 0;
+    margin: 10px;
+    /* align-items: center; */    
+  }
+  .top-img {
+height: 130px;
+  }
+
+
 } 
