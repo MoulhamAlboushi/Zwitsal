@@ -348,6 +348,7 @@ label{
      border: black 1px solid;
      margin: 0;
      padding: 0;
+     width: 100%;
    }
   
   body{
@@ -382,6 +383,9 @@ label{
       margin: 0;
 
   }
+  .top-tex-btn{
+    width: 360px;
+  }
   .container{
     display: block;
   }
@@ -402,7 +406,7 @@ font-size: 1.5em;
 display: block;
   }
   .win1jaar img{
-    /* height: 380px; */
+    height: 250px;
     width: 300px;
   }
   .stapvoorstap img{
