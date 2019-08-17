@@ -268,7 +268,7 @@ ul{
 }
 .allezwitsel-text h2{
   padding-top: 10px;
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 .aap{
   display: grid;
@@ -377,9 +377,9 @@ label{
   .top-img-text{
       position: absolute;
       left: 10px;
-      top: 3px;
+      top: 60px;
       width: 300px;
-      height: 300px;
+      /* height: 300px; */
       color: white;
       padding: 10px 0 10px 0 ;
       background-position-x: right;
@@ -391,11 +391,11 @@ margin: auto;
   }
   .btn-top{
       position: absolute;
-      top: 100px;
-      bottom: 240px;
+      /* top: 100px; */
+      bottom: 120px;
       /* bottom: 5px; */
-      left: 10rem;
-      padding: 4px;
+      left: 16rem;
+      padding: 7px;
       /* color: aqua */
 
   
@@ -415,6 +415,7 @@ margin: auto;
   .alle-zwitsel{
 display: block;
 font-size: 1.5em;
+padding: 10px;
   }
   .aap{
     display: block;
@@ -442,6 +443,12 @@ display: block;
   .top-img {
 height: 130px;
   }
-
+  h2{
+    font-size: 25;
+  }
+  .allezwitsel-text h2{
+    padding-top: 3px;
+    font-size: 25px;
+  }
 
 } 
