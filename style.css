@@ -344,6 +344,11 @@ label{
  
 /* ///////////////////////////////////////////////// */
  @media screen and (max-width: 360px){
+   body{
+     border: black 1px solid;
+     margin: 0;
+     padding: 0;
+   }
   
   body{
     margin: 0;
@@ -365,7 +370,8 @@ label{
       height: 300px;
       color: white;
       padding: 10px 0 10px 0 ;
-      background-size: cover;
+      background-size: 20%;
+      background-position: center cernter;
   }
   .btn-top{
       position: absolute;
@@ -398,6 +404,9 @@ display: block;
   .win1jaar img{
     /* height: 380px; */
     width: 300px;
+  }
+  .stapvoorstap img{
+    height: 180%;
   }
 
 
