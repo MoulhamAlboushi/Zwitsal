@@ -446,9 +446,31 @@ height: 130px;
   h2{
     font-size: 25;
   }
+  .alle-zwitsel{
+    margin: 0;}
   .allezwitsel-text h2{
     padding-top: 3px;
     font-size: 25px;
   }
+  .btn-alle-zwitsel{
+    display: block;
+    position: relative;
+    /* color: blue */
+  }
+
+
+
+
+  .allezwitsel-text button{
+  display:inline;
+  background-color: var(--secondery-color);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+
 
 } 
