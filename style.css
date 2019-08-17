@@ -1,11 +1,14 @@
-/* body {
+body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* max-width: 1140px; */
+  /* max-width: 1240px; */
   
+}
   /* border: 1px dotted black; 
-}*/
+/* body{
+  border: black 1px solid;
+} */
 :root {
   --h-font-family: "Give You Glory", cursive;
   --p-f-family: "Open Sans", sans-serif;
@@ -339,3 +342,63 @@ label{
 }
 
  
+/* ///////////////////////////////////////////////// */
+ @media screen and (max-width: 360px){
+  
+  *body{
+    margin: 0;
+    padding: 0;
+  }
+  .top-img h1{
+    font-size: 30px;
+    width: 230px;
+  }
+  .top-img h1 span{
+    color: white;
+
+  }
+  .top-img-text{
+      position: absolute;
+      left: 10px;
+      top: 3px;
+      width: 300px;
+      height: 300px;
+      color: white;
+      padding: 10px 0 10px 0 ;
+      background-size: cover;
+  }
+  .btn-top{
+      position: absolute;
+      bottom: 5px;
+      left: 10px;
+
+      padding: 0;
+      margin: 0;
+
+  }
+  .container{
+    display: block;
+  }
+  .container h3{
+    font-size: 18px;
+    text-align: center;
+    
+  }
+  .alle-zwitsel{
+display: block;
+font-size: 1.5em;
+  }
+  .aap{
+    display: block;
+
+  }
+  .win1jaar{
+display: block;
+  }
+  .win1jaar img{
+    /* height: 380px; */
+    width: 300px;
+  }
+
+
+} 
