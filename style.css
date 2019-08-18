@@ -352,7 +352,7 @@ label{
 
  
 /* ///////////////////////////////////////////////// */
- @media screen and (max-width: 400px){
+ @media screen and (max-width: 501px){
    body{
      /* border: black 1px solid; */
      margin: 0;
