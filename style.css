@@ -490,6 +490,20 @@ height: 130px;
   padding: 10px;
   cursor: pointer;
 }
+.footer-flex{
+  display: block;
+  padding-left: 20px;
 
+}
+.footer-flex h4{
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+.footer-unilever img{
+  width: 20%;
+  border-radius: 0;
+  margin-top: 35px;
+}
 
 } 
