@@ -425,18 +425,17 @@ padding: 10px;
     /* height: 400px;; */
   }
   .aap-photo{
-    /* display: none; */
-position:absolute;
-bottom: 15px;
-left:35%;
+  position:absolute;
+  bottom: 15px;
+  left:35%;
     justify-content: center;
   }
   .aapphoto{
     display: none;
   }
   .zwitsalbabynamen-text{
-    position: relative;
-    height: 320px;
+    /* position: relative; */
+    height: 470px;
   }
  .zwitsalbabynamen-text{
    align-items: center;
