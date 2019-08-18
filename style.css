@@ -352,7 +352,7 @@ label{
 
  
 /* ///////////////////////////////////////////////// */
- @media screen and (max-width: 376px){
+ @media screen and (max-width: 500px){
    body{
      /* border: black 1px solid; */
      margin: 0;
@@ -390,18 +390,14 @@ label{
   }
   .btn{
     display: block;
-margin: auto;
+    margin: auto;
+    color: rgb(0, 0, 0);
   }
   .btn-top{
       position: absolute;
-      /* top: 100px; */
       bottom: 120px;
-      /* bottom: 5px; */
       left: 13rem;
-      padding: 7px;
-      /* color: aqua */
-
-  
+      padding: 7px; 
 
   }
   .top-tex-btn{
@@ -422,17 +418,45 @@ padding: 10px;
   }
   .alle-zwitsel img{
     width: 350px;
+    margin: auto;
   }
   .aap{
     display: block;
-
+    /* height: 400px;; */
+  }
+  .aap-photo{
+    /* display: none; */
+position:absolute;
+bottom: 15px;
+left:35%;
+    justify-content: center;
+  }
+  .aapphoto{
+    display: none;
+  }
+  .zwitsalbabynamen-text{
+    position: relative;
+    height: 320px;
+  }
+ .zwitsalbabynamen-text{
+   align-items: center;
+    font-size: 25px;
+    padding: 5px;
+  }
+  .zwitsalbabynamen-text h2{
+    padding: 4px;
+    margin: 0;
+  }
+  .zwitsalbabynamen-text p{
+  text-align: center;
   }
   .win1jaar{
 display: block;
   }
   .win1jaar img{
-    height: 250px;
-    width: 300px;
+    margin: auto;
+    height: 200px;
+    width: 260px;
   }
   .stapvoorstap img{
     height: 180%;
