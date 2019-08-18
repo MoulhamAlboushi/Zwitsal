@@ -352,12 +352,15 @@ label{
 
  
 /* ///////////////////////////////////////////////// */
- @media screen and (max-width: 360px){
+ @media screen and (max-width: 376px){
    body{
      /* border: black 1px solid; */
      margin: 0;
      padding: 0;
      width: 100%;
+   }
+   img{
+     display: block;
    }
   
   body{
@@ -394,7 +397,7 @@ margin: auto;
       /* top: 100px; */
       bottom: 120px;
       /* bottom: 5px; */
-      left: 16rem;
+      left: 13rem;
       padding: 7px;
       /* color: aqua */
 
@@ -417,6 +420,9 @@ display: block;
 font-size: 1.5em;
 padding: 10px;
   }
+  .alle-zwitsel img{
+    width: 350px;
+  }
   .aap{
     display: block;
 
@@ -432,13 +438,10 @@ display: block;
     height: 180%;
   }
   .textinphoto h3{
-    /* width: 255px; */
-    /* height: 100px; */
     position: absolute;
     bottom: 3rem;
     padding-bottom: 0;
     margin: 10px;
-    /* align-items: center; */    
   }
   .top-img {
 height: 130px;
@@ -457,10 +460,6 @@ height: 130px;
     position: relative;
     /* color: blue */
   }
-
-
-
-
   .allezwitsel-text button{
   display:inline;
   background-color: var(--secondery-color);
@@ -468,9 +467,6 @@ height: 130px;
   padding: 10px;
   cursor: pointer;
 }
-
-
-
 
 
 } 
